@@ -17,6 +17,18 @@
     );
 }
 
+.title{
+    color: #33bbcf; 
+}
+.menu:hover{
+    color: #33bbcf;
+}
+
+.bouton:hover{
+    background-color: #33bbcf;
+    color:black;
+}
+
 .text-gradient {
     background: radial-gradient(
       64.18% 64.18% at 71.16% 35.69%,
@@ -31,4 +43,8 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+  }
+  
+  .icon:hover{
+    color: #33bbcf;
   }

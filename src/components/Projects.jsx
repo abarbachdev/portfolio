@@ -4,11 +4,11 @@ import realestateimg from '../assets/realestate.jpg'
 
 const Projects = () => {
   return (
-    <div id='#projects' className='w-full h-screen bg-slate-900 flex justify-center items-center'>
+    <div id='#projects' className='w-full h-[800px] bg-slate-900 flex justify-center items-center'>
         <div className='max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         { /* container */}
         <div className='flex flex-col justify-center items-center pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-white'>Projects</p>
+            <p className='text-4xl font-bold inline border-b-4 text-gradient border-[#ffffff]'>Recent Projects</p>
             <p className='text-2xl text-gray-200 my-5'>Here are some of the projects I've worked on recently.</p>
         </div>
 

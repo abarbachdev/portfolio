@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
-import {AiFillHome} from 'react-icons/ai'
+import {FaLinkedinIn} from 'react-icons/fa'
+import {AiFillGithub} from 'react-icons/ai'
 import Logo from '../assets/logo1.png'
 import Mypic from '../assets/mypic.jpg'
 import imagebackgr from '../assets/imagebk.jpeg'
@@ -13,26 +14,33 @@ const Navbar = () => {
 
   return (
    
-    <div id='home' className=' bg-slate-900 w-full h-[100px] flex justify-between items-center  text-white	'>
-        <div>
-            
+    <div id='home' className=' bg-slate-900 w-full h-[100px] flex justify-between items-center  text-white	fixed'>
+       <div>
+       <div className=' p-10 w-full flex justify-between items-center'>
+            <a href="https://www.linkedin.com/in/iabarbach/" target="_blank">
+            <FaLinkedinIn size='25px' className='mr-4 icon'/>
+            </a>
+            <a href="https://github.com/abarbachdev" target="_blank">
+            <AiFillGithub size='25px' className='icon'/>
+            </a>
         </div>
-        
+       </div>
+       
         <div>
             <ul className=' flex  px-5 cursor-pointer '>
-                <li className='px-5 hover:text-pink-600'>
+                <li className='px-5 menu'>
                     <a href="/home">Home</a>
                 </li>
-                <li className='px-5 hover:text-pink-600'>
+                <li className='px-5 menu'>
                     <a href="/exp">Experience</a>
                 </li>
-                <li className='px-5 hover:text-pink-600'>
+                <li className='px-5 menu'>
                     <a href="/contact">Contact</a>
                     </li>
-                <li className='px-5 hover:text-pink-600' >
+                <li className='px-5 menu' >
                     <a href="/skills">Skills</a>
                     </li>
-                <li className='px-5 hover:text-pink-600'>
+                <li className='px-5 menu'>
                     <a href="/projects">Projects</a>
                     </li>
             </ul>
